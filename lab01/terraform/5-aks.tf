@@ -42,6 +42,7 @@ resource "azurerm_kubernetes_cluster" "this" {
     node_count = 1
     min_count = 1
     max_count = 10
+  
 
     node_labels = {
       role = "general"

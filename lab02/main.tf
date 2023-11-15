@@ -1,6 +1,3 @@
-# Copyright (c) HashiCorp, Inc.
-# SPDX-License-Identifier: MPL-2.0
-
 # terraform {
 #   # 使用远程 Cloud 后端
 #   cloud {

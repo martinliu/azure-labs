@@ -1,14 +1,15 @@
 # Copyright (c) HashiCorp, Inc.
 # SPDX-License-Identifier: MPL-2.0
-terraform {
-  # 使用远程 Cloud 后端
-  cloud {
-    organization = "DevOpsCoach"
-    workspaces {
-      name = "aks-labs"
-    }
-  }
-}
+
+# terraform {
+#   # 使用远程 Cloud 后端
+#   cloud {
+#     organization = "DevOpsCoach"
+#     workspaces {
+#       name = "aks-labs"
+#     }
+#   }
+# }
 provider "azurerm" {
   features {}
   # 下面的配置允许 Terraform 以您的身份与 Azure API 进行交互，从而管理您的资源。
